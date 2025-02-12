@@ -1,11 +1,10 @@
 Employee Work Arrangement Analysis
+ Blog post link
+https://medium.com/@nichomaabane46/unveiling-the-dynamics-of-work-arrangements-insights-from-data-analysis-19a7ac3b79b1
 
 Overview
 
 This project aims to analyze the factors that influence whether an employee works remotely, in-person, or in a hybrid arrangement. By using a Decision Tree model, we identify the most significant predictors of work arrangements, such as job role, work experience, and education level. Additionally, we explore the relationship between job satisfaction and work arrangements, and analyze the distribution of work arrangements across different age groups and employment types.
-
- Blog post link
-https://medium.com/@nichomaabane46/unveiling-the-dynamics-of-work-arrangements-insights-from-data-analysis-19a7ac3b79b1
 
 Installation
 
@@ -13,13 +12,11 @@ To run the code, you need the Anaconda distribution of Python. The code is compa
 
 pip install -r requirements.txt
 The requirements.txt file includes:
-
-pandas
-numpy
-scikit-learn
-matplotlib
-seaborn
-Usage
+pandas==1.3.3
+numpy==1.21.2
+matplotlib==3.4.3
+seaborn==0.11.2
+scikit-learn==0.24.2
 To use this project, follow these steps:
 
 Clone the repository to your local machine.
@@ -28,8 +25,25 @@ Open the Jupyter Notebook BlogPost.ipynb to explore the data analysis and visual
 Review the 2024 Developer Survey.pdf for a summary of the survey results.
 Use the survey_results_public.csv and survey_results_schema.csv files for further analysis.
 
-Project Motivation
+Repository contains the following files
+- 2024 Developer Survey - contains an example of the survey 
+- BlogPost.ipynb - containing the data science analysis
+- medium blogPost link.docx - containing the link to the blog post
+- requirements.txt - contains the notebook requirements for running the code
+- README.md - provides the overview of the analysis and contents
+- README.txt - provides the overview of the analysis and contents
 
+Project Motivation
+For this project, I was interested in using Stackoverflow data from 2024 to better understand:
+
+1). What factors most influence whether an employee works remotely, in-person, or in a hybrid arrangement?
+By analyzing the Decision Tree model, we can identify which features (e.g., job role, work experience, education level) are the most significant predictors of an employee's work arrangement.
+
+2). How does job satisfaction (JobSat) correlate with the likelihood of an employee working remotely, in-person, or in a hybrid arrangement?
+We can investigate the relationship between job satisfaction scores and work arrangements to see if higher or lower job satisfaction is associated with a particular work arrangement.
+
+3). What is the distribution of work arrangements (remote, in-person, hybrid) across different age groups and employment types?
+By examining the model's predictions and the actual data, we can analyze how work arrangements vary among different age groups (e.g., under 18, 35-44 years old) and employment types (e.g., full-time, student).
 For this project, I was interested in understanding the factors that influence an employee's work arrangement, whether it be remote, in-person, or hybrid. By analyzing data through a Decision Tree model, I aimed to uncover the most significant predictors of work arrangements, such as job role, work experience, and education level.
 
 Additionally, I sought to explore the relationship between job satisfaction (JobSat) and work arrangements. By investigating job satisfaction scores, I aimed to determine if higher or lower job satisfaction is associated with a particular work arrangement.
@@ -60,6 +74,9 @@ README.txt: This text file usually contains information about the project, inclu
 survey_results_public.csv: This CSV file contains the raw data collected from the developer survey, including responses from participants.
 survey_results_schema.csv: This CSV file probably includes the schema for the survey results, detailing the structure of the data, such as column names and data types.
 
-Licensing, Authors, Acknowledgements
-This project used data from Stack Overflow. Special thanks to the contributors and data providers(https://survey.stackoverflow.co/)
+Acknowledgements
+This project used data from Stack Overflow. Special thanks to the contributors and data providers
+(https://survey.stackoverflow.co/)
 https://learn.udacity.com/
+ Blog post link
+https://medium.com/@nichomaabane46/unveiling-the-dynamics-of-work-arrangements-insights-from-data-analysis-19a7ac3b79b1
